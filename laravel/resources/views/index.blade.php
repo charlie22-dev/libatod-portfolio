@@ -7,7 +7,7 @@
 
 <section class="hero-section py-5 text-center bg-dark text-white">
     <div class="container">
-        <img src="{{ asset($portfolio['profile_image']) }}" alt="{{ $portfolio['name'] }}" class="profile-img rounded-circle mb-4" style="width: 150px;">
+        <img src="{{ asset('assets/' .$portfolio['profile_image']) }}" alt="{{ $portfolio['name'] }}" class="profile-img rounded-circle">
         <h1 class="display-4">{{ $portfolio['name'] }}</h1>
         <h3 class="mb-3">{{ $portfolio['title'] }}</h3>
         <p class="lead">{{ $portfolio['bio'] }}</p>
